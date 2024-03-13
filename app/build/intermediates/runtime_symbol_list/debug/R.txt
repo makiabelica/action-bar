@@ -1368,6 +1368,8 @@ int color cardview_dark_background 0x7f05002c
 int color cardview_light_background 0x7f05002d
 int color cardview_shadow_end_color 0x7f05002e
 int color cardview_shadow_start_color 0x7f05002f
+int color coral 0x7f050304
+int color darkpurple 0x7f050305
 int color design_bottom_navigation_shadow_color 0x7f050030
 int color design_box_stroke_color 0x7f050031
 int color design_dark_default_color_background 0x7f050032
@@ -2079,10 +2081,12 @@ int color primary_text_disabled_material_dark 0x7f0502f3
 int color primary_text_disabled_material_light 0x7f0502f4
 int color ripple_material_dark 0x7f0502f5
 int color ripple_material_light 0x7f0502f6
+int color rojopasion 0x7f050307
 int color secondary_text_default_material_dark 0x7f0502f7
 int color secondary_text_default_material_light 0x7f0502f8
 int color secondary_text_disabled_material_dark 0x7f0502f9
 int color secondary_text_disabled_material_light 0x7f0502fa
+int color softpurple 0x7f050306
 int color switch_thumb_disabled_material_dark 0x7f0502fb
 int color switch_thumb_disabled_material_light 0x7f0502fc
 int color switch_thumb_material_dark 0x7f0502fd
@@ -3177,7 +3181,7 @@ int id bounce 0x7f08005e
 int id bounceBoth 0x7f08005f
 int id bounceEnd 0x7f080060
 int id bounceStart 0x7f080061
-int id button 0x7f080062
+int id btn 0x7f0801f7
 int id buttonPanel 0x7f080063
 int id cache_measures 0x7f080064
 int id callMeasure 0x7f080065
@@ -3697,6 +3701,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
+int layout activity_segunda_pantalla 0x7f0b006c
 int layout custom_dialog 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e
 int layout design_bottom_sheet_dialog 0x7f0b001f
@@ -3816,6 +3821,7 @@ int string bottomsheet_action_expand 0x7f100020
 int string bottomsheet_action_expand_halfway 0x7f100021
 int string bottomsheet_drag_handle_clicked 0x7f100022
 int string bottomsheet_drag_handle_content_description 0x7f100023
+int string btn_nueva_activity 0x7f1000ac
 int string call_notification_answer_action 0x7f100024
 int string call_notification_answer_video_action 0x7f100025
 int string call_notification_decline_action 0x7f100026
@@ -3834,6 +3840,10 @@ int string fab_transformation_scrim_behavior 0x7f100032
 int string fab_transformation_sheet_behavior 0x7f100033
 int string hide_bottom_view_on_scroll_behavior 0x7f100034
 int string icon_content_description 0x7f100035
+int string item_menu_configuracion 0x7f1000a7
+int string item_menu_geolocalizacion 0x7f1000a8
+int string item_menu_perfil 0x7f1000a9
+int string item_menu_salir 0x7f1000aa
 int string item_view_role_description 0x7f100036
 int string m3_exceed_max_badge_text_suffix 0x7f100037
 int string m3_ref_typeface_brand_medium 0x7f100038
@@ -3935,6 +3945,7 @@ int string mtrl_switch_track_decoration_path 0x7f100097
 int string mtrl_switch_track_path 0x7f100098
 int string mtrl_timepicker_cancel 0x7f100099
 int string mtrl_timepicker_confirm 0x7f10009a
+int string nueva_cuenta 0x7f1000ab
 int string password_toggle_content_description 0x7f10009b
 int string path_password_eye 0x7f10009c
 int string path_password_eye_mask_strike_through 0x7f10009d
@@ -3947,6 +3958,7 @@ int string searchview_navigation_content_description 0x7f1000a3
 int string side_sheet_accessibility_pane_title 0x7f1000a4
 int string side_sheet_behavior 0x7f1000a5
 int string status_bar_notification_info_overflow 0x7f1000a6
+int string txt_texto_segunda_activity 0x7f1000ad
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001
 int style Animation_AppCompat_Dialog 0x7f110002
@@ -4258,6 +4270,7 @@ int style MaterialAlertDialog_MaterialComponents_Title_Panel 0x7f110133
 int style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked 0x7f110134
 int style MaterialAlertDialog_MaterialComponents_Title_Text 0x7f110135
 int style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked 0x7f110136
+int style MenuStyle 0x7f11045e
 int style Platform_AppCompat 0x7f110137
 int style Platform_AppCompat_Light 0x7f110138
 int style Platform_MaterialComponents 0x7f110139

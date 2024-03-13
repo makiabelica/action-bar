@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="coral">#FED9ED</color>
+    <color name="darkpurple">#AD88C6</color>
+    <color name="rojopasion">#EF4040</color>
+    <color name="softpurple">#E1AFD1</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">EspinozaCampos</string>
+    <string name="btn_nueva_activity">Abrir nueva ventana</string>
+    <string name="item_menu_configuracion">Configuracion</string>
+    <string name="item_menu_geolocalizacion">Enviar mi ubicacion</string>
+    <string name="item_menu_perfil">Ver perfil</string>
+    <string name="item_menu_salir">Cerrar sesion</string>
+    <string name="nueva_cuenta">Crea nueva cuenta</string>
+    <string name="txt_texto_segunda_activity">Esta es la segunda activity en ejecucion</string>
     <style name="Base.Theme.EspinozaCampos" parent="Theme.Material3.DayNight.NoActionBar">
         
         
+        <item name="android:windowBackground">#FFE6E6</item>
+    </style>
+    <style name="MenuStyle" parent="Theme.MaterialComponents.Light">
+        <item name="popupMenuBackground">@color/coral</item>
+        <item name="android:textColor">@color/darkpurple</item>
     </style>
     <style name="Theme.EspinozaCampos" parent="Base.Theme.EspinozaCampos"/>
 </resources>

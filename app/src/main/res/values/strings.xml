@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">EspinozaCampos</string>
+    <string name="item_menu_configuracion">Configuracion</string>
+    <string name="item_menu_perfil">Ver perfil</string>
+    <string name="item_menu_geolocalizacion">Enviar mi ubicacion</string>
+    <string name="nueva_cuenta">Crea nueva cuenta</string>
+    <string name="item_menu_salir">Cerrar sesion</string>
+    <string name="btn_nueva_activity">Abrir nueva ventana</string>
+    <string name="txt_texto_segunda_activity">Esta es la segunda activity en ejecucion</string>
 </resources>

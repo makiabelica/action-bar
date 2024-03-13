@@ -1,12 +1,16 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color coral
+color darkpurple
+color rojopasion
+color softpurple
 color white
 drawable configuracion
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable peril
-id button
+id btn
 id configuracion
 id mapa
 id nuevaCuenta
@@ -14,11 +18,20 @@ id perfil
 id salir
 id toolbar
 layout activity_main
+layout activity_segunda_pantalla
 menu ufg_toolbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string btn_nueva_activity
+string item_menu_configuracion
+string item_menu_geolocalizacion
+string item_menu_perfil
+string item_menu_salir
+string nueva_cuenta
+string txt_texto_segunda_activity
 style Base.Theme.EspinozaCampos
+style MenuStyle
 style Theme.EspinozaCampos
 xml backup_rules
 xml data_extraction_rules

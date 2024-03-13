@@ -1,9 +1,11 @@
 package com.example.espinozacampos
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 
@@ -18,6 +20,13 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.title = "Espinoza Campos"
         supportActionBar?.subtitle = "Universidad Francisco Gavidia"
         supportActionBar?.setIcon(R.drawable.ic_launcher_foreground)
+
+        val boton = findViewById<Button>(R.id.btn)
+
+        boton.setOnClickListener{
+            val intent = Intent(this, SegundaPantalla::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

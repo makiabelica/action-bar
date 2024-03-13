@@ -3,7 +3,11 @@
     <style name="Base.Theme.EspinozaCampos" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowBackground">#FFE6E6</item>
     </style>
-
+    <style name="MenuStyle" parent="Theme.MaterialComponents.Light">
+        <item name="popupMenuBackground">@color/coral</item>
+        <item name="android:textColor">@color/darkpurple</item>
+    </style>
     <style name="Theme.EspinozaCampos" parent="Base.Theme.EspinozaCampos" />
 </resources>

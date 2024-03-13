@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.EspinozaCampos" >
         <activity
+            android:name="com.example.espinozacampos.SegundaPantalla"
+            android:exported="false" />
+        <activity
             android:name="com.example.espinozacampos.MainActivity"
             android:exported="true" >
             <intent-filter>

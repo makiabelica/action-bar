@@ -3,28 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 <item
     android:id="@+id/configuracion"
-    android:title="Configuracion"
+    android:title="@string/item_menu_configuracion"
     android:icon="@drawable/configuracion"
     app:showAsAction="always"/>
 
     <item
         android:id="@+id/perfil"
-        android:title="Perfil"
+        android:title="@string/nueva_cuenta"
         android:icon="@drawable/peril"
         app:showAsAction="always"/>
     <item
         android:id="@+id/mapa"
-        android:title="Compartir localizacion"
+        android:title="@string/item_menu_perfil"
         android:icon="@drawable/peril"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/nuevaCuenta"
-        android:title="Nueva Cuenta"
+        android:title="@string/item_menu_geolocalizacion"
         android:icon="@drawable/peril"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/salir"
-        android:title="Cerrar sesion"
+        android:title="@string/item_menu_salir"
         android:icon="@drawable/peril"
         app:showAsAction="ifRoom"/>
 
